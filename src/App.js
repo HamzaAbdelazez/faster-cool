@@ -6,7 +6,7 @@ import Nav from "./components/Nav";
 import HeroCarousel from "./components/HeroCarousel";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
-import Customers from "./assets/Customers";
+import Customers from "./components/Customers";
 
 function App() {
   return (

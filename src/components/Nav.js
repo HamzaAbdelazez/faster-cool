@@ -1,4 +1,4 @@
-export function Nav() {
+export default function Nav() {
   return (
     <div className="container">
       <div className="row">
@@ -56,7 +56,7 @@ export function Nav() {
                         className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-59"
                       >
                         <a href="https://fastercool.com/" aria-current="page">
-                          الرئيسيه
+                          Home
                         </a>
                       </li>
                       <li
@@ -64,7 +64,7 @@ export function Nav() {
                         className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-87"
                       >
                         <a href="https://fastercool.com/category/%d9%85%d9%86%d8%aa%d8%ac%d8%a7%d8%aa%d9%86%d8%a7/">
-                          منتجاتنا
+                          Products
                         </a>
                       </li>
                       <li
@@ -72,7 +72,7 @@ export function Nav() {
                         className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-700"
                       >
                         <a href="https://fastercool.com/category/%d8%ae%d8%af%d9%85%d8%a7%d8%aa%d9%86%d8%a7/">
-                          خدماتنا
+                          Services
                         </a>
                       </li>
                       <li
@@ -80,7 +80,7 @@ export function Nav() {
                         className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-701"
                       >
                         <a href="https://fastercool.com/category/%d8%b9%d9%85%d9%84%d8%a7%d8%a6%d9%86%d8%a7/">
-                          عملائنا
+                          Customers
                         </a>
                       </li>
                       <li
@@ -88,7 +88,7 @@ export function Nav() {
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"
                       >
                         <a href="https://fastercool.com/%d8%a7%d9%86%d8%b5%d9%84-%d8%a8%d9%86%d8%a7/">
-                          اتصل بنا
+                          contact
                         </a>
                       </li>
                       <li
@@ -96,7 +96,7 @@ export function Nav() {
                         className="ask menu-item menu-item-type-post_type menu-item-object-page menu-item-1341"
                       >
                         <a href="https://fastercool.com/%d8%a7%d8%b3%d8%a3%d9%84-%d8%b9%d9%86-%d9%85%d9%86%d8%aa%d8%ac/">
-                          اسأل عن منتج
+                        ask
                         </a>
                       </li>
                     </ul>
@@ -118,13 +118,13 @@ export function Nav() {
               >
                 <input
                   type="text"
-                  placeholder="ابحث عن منتج"
+                  placeholder=" Search "
                   className="input"
                   name="s"
                   id="search" />
                 <button className="btn_submait2" type="submait">
                   {" "}
-                  ابحث{" "}
+                  search{" "}
                 </button>
               </form>{" "}
             </div>
